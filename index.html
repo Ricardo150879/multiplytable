@@ -1,0 +1,3439 @@
+<!Doctype html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multiply Table</title>
+ <style>
+
+body {  
+ //text-align: center;  
+ background-image: linear-gradient(to right, rgba(5,15,4,0), rgba(5,15,4,0.5));  
+ }
+
+ p{
+color: blue;
+}
+
+ td{
+color: purple;
+font-weight: bold;
+border: 1px solid black;
+}
+
+marquee{
+color: darkblue;
+}
+
+button {  
+  background-color: #af614c;  
+  border: none;  
+  color: white;  
+  padding: 5px 15px; //padding: 15px 32px;  
+  text-align: center;  
+  text-decoration: none;  
+  display: inline-block;  
+  font-size: 16px;  
+  margin: 4px 2px;  
+  cursor: pointer;  
+}
+ </style>
+</head>
+<body>
+
+<menu>
+<li><a href="#1timestable">Go to 1 Times Table</a></li>
+<li> <a href="#2timestable">Go to 2 Times Table</a> </li>
+<li> <a href="#3timestable">Go to 3 Times Table</a> </li>
+<li> <a href="#4timestable">Go to 4 Times Table</a> </li>
+<li> <a href="#5timestable">Go to 5 Times Table</a> </li>
+<li> <a href="#6timestable">Go to 6 Times Table</a> </li>
+<li> <a href="#7timestable">Go to 7 Times Table</a></li>
+<li> <a href="#8timestable">Go to 8 Times Table</a> </li>
+<li> <a href="#9timestable">Go to 9 Times Table</a> </li>
+<li> <a href="#10timestable">Go to 10 Times Table</a> </li>
+</menu>
+
+<h4 id="1timestable">1 Times Table </h4>
+<h2 style="color: tomato;"> 1x1=1<br>1x2=2<br>1x3=3<br>1x4=4<br>1x5=5<br>1x6=6<br>1x7=7<br>1x8=8<br>1x9=9<br>1x10=10</h2>
+
+<marquee><strong><h2> 1x1=1. 1x2=2. 1x3=3. 1x4=4. 1x5=5. 1x6=6. 1x7=7. 1x8=8. 1x9=9. 1x10=10 </h2></strong></marquee>
+
+<p><i>TRY IT</i></p>
+
+<script>
+      function algoritmoyt1() {
+        //var x = 7;
+        var yt1  = document.getElementById("yt1").value;
+        var multt1 = (1*yt1);
+        document.getElementById("MULTT1").innerHTML = "FOUND 1 X <strong>" +yt1+ "=" + multt1 + "</strong>";
+      }
+    </script>
+     
+    <label for="yt1">1 X THE NUMBER YOU WISH TIMES FOR: </label>
+    <input id="yt1" type="number"><br>
+    <button onclick="algoritmoyt1()">Calculate</button>
+    <div id="MULTT1"></div>
+
+<p><i>TRY IT</i></p>
+<button onclick="algoritmoy1t1()">Count at 1</button>
+<script>
+function algoritmoy1t1(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("1x "+ i + "<br>");
+//document.write("= "+ i*1 +"<br>"); 
+alert("Adding  1 at 1:  " + i*1);
+}
+ }
+</script>
+
+<p>IT MEANS</p>
+<table>
+<tr>
+<td>1x1=1</td>
+</tr>
+<tr>
+<td>1x2=1+1</td>
+</tr>
+<tr>
+<td>1x3=1+1+1</td>
+</tr>
+<tr>
+<td>1x4=1+1+1+1</td>
+</tr>
+<tr>
+<td>1x5=1+1+1+1+1</td>
+</tr>
+<tr>
+<td>1x6=1+1+1+1+1+1</td>
+</tr>
+<tr>
+<td>1x7=1+1+1+1+1+1+1</td>
+</tr>
+<tr>
+<td>1x8=1+1+1+1+1+1+1+1</td>
+</tr>
+<tr>
+<td>1x9=1+1+1+1+1+1+1+1+1</td>
+</tr>
+<tr>
+<td>1x10=1+1+1+1+1+1+1+1+1+1</td>
+</tr>
+</table>
+<p>SO, WE HAVE BEEN MAKING</p>
+<table>
+<tr>
+<td>1x1=1</td>
+</tr>
+<tr>
+<td>1x2=1+1=2</td>
+</tr>
+<tr>
+<td>1x3=1+1+1=3</td>
+</tr>
+<tr>
+<td>1x4=1+1+1+1=4</td>
+</tr>
+<tr>
+<td>1x5=1+1+1+1+1=5</td>
+</tr>
+<tr>
+<td>1x6=1+1+1+1+1+1=6</td>
+</tr>
+<tr>
+<td>1x7=1+1+1+1+1+1+1=7</td>
+</tr>
+<tr>
+<td>1x8=1+1+1+1+1+1+1+1=8</td>
+</tr>
+<tr>
+<td>1x9=1+1+1+1+1+1+1+1+1=9</td>
+</tr>
+<tr>
+<td>1x10=1+1+1+1+1+1+1+1+1+1=10</td>
+</tr>
+</table>
+
+<p>LET'S PRACTICE IT</p>
+
+<script>
+        
+        function algoritmo1t1() {
+        
+        var x11 = document.getElementById("x11").value;
+        var print11 = x11*1;
+
+       if (x11 != 1){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x11 = 1){
+       document.getElementById("X11").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x11+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x11"> 1 x 1 = </label>
+    <input id="x11" type="number">
+    <button onclick="algoritmo1t1()">Check</button>
+    <div id="X11"></div>
+    <br>
+
+<script>
+        
+        function algoritmo2t1() {
+        
+        var x21 = document.getElementById("x21").value;
+        var print21=x21*1;
+       if (x21 != 2){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x21 = 2){
+       document.getElementById("X21").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x21+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x21"> 1 x 2 = </label>
+    <input id="x21" type="number">
+    <button onclick="algoritmo2t1()">Check</button>
+    <div id="X21"></div>
+    <br>
+
+<script>
+        
+        function algoritmo3t1() {
+        
+        var x31 = document.getElementById("x31").value;
+        var print31 = x31*1;
+       if (x31 != 3){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x31 = 3){
+       document.getElementById("X31").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x31+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x31"> 1 x 3 = </label>
+    <input id="x31" type="number">
+    <button onclick="algoritmo3t1()">Check</button>
+    <div id="X31"></div>
+    <br>
+
+<script>
+        
+        function algoritmo4t1() {
+        
+        var x41 = document.getElementById("x41").value;
+        var print41 = x41*1;
+       if (x41 != 4){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x41 = 4){
+       document.getElementById("X41").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x41+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x41"> 1 x 4 = </label>
+    <input id="x41" type="number">
+    <button onclick="algoritmo4t1()">Check</button>
+    <div id="X41"></div>
+    <br>
+
+<script>
+        
+        function algoritmo5t1() {
+        
+        var x51 = document.getElementById("x51").value;
+        var print51 = x51*1;
+       if (x51 != 5){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x51 = 5){
+       document.getElementById("X51").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x51+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x51"> 1 x 5 = </label>
+    <input id="x51" type="number">
+    <button onclick="algoritmo5t1()">Check</button>
+    <div id="X51"></div>
+    <br>
+
+<script>
+        
+        function algoritmo6t1() {
+        
+        var x61 = document.getElementById("x61").value;
+        var print61 = x61*1;
+       if (x61 != 6){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x61= 6){
+       document.getElementById("X61").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x61+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x61"> 1 x 6 = </label>
+    <input id="x61" type="number">
+    <button onclick="algoritmo6t1()">Check</button>
+    <div id="X61"></div>
+    <br>
+
+<script>
+        
+        function algoritmo7t1() {
+        
+        var x71 = document.getElementById("x71").value;
+        var print71 = x71*1;
+       if (x71 != 7){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x71= 7){
+       document.getElementById("X71").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x71+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x71"> 1 x 7 = </label>
+    <input id="x71" type="number">
+    <button onclick="algoritmo7t1()">Check</button>
+    <div id="X71"></div>
+    <br>
+
+<script>
+        
+        function algoritmo8t1() {
+        
+        var x81 = document.getElementById("x81").value;
+        var print81 = x81*1;
+       if (x81 != 8){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x81= 8){
+       document.getElementById("X81").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x81+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x81"> 1 x 8 = </label>
+    <input id="x81" type="number">
+    <button onclick="algoritmo8t1()">Check</button>
+    <div id="X81"></div>
+    <br>
+
+<script>
+        
+        function algoritmo9t1() {
+        
+        var x91 = document.getElementById("x91").value;
+        var print91 = x91*1;
+       if (x91 != 9){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x91= 9){
+       document.getElementById("X91").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x91+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x91"> 1 x 9 = </label>
+    <input id="x91" type="number">
+    <button onclick="algoritmo9t1()">Check</button>
+    <div id="X91"></div>
+    <br>
+
+<script>
+        
+        function algoritmo10t1() {
+        
+        var x101 = document.getElementById("x101").value;
+        var print10 = x101*1;
+       if (x101 != 10){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x101= 10){
+       document.getElementById("X101").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x101+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x101"> 1 x 10 = </label>
+    <input id="x101" type="number">
+    <button onclick="algoritmo10t1()">Check</button>
+    <div id="X101"></div>
+<!--<button onclick="algoritmo11()">Count 7</button>-->
+
+    <button onclick="algoritmoPt1()">PRESS YOUR WORK</button>
+
+<script>
+function algoritmoPt1(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("7x "+ i + "<br>");
+//document.write("= "+ i*7 +"<br>");
+document.write("1x" +i+ " = " +i*1+ "<br>");
+ //alert("7x"+i+"=" + i*7);
+}
+document.write("Either press F5 or click at the link REFRESH below to return the main page" + "<br>");
+document.write('<a href="JavaScript: location.reload(true);"> REFRESH PAGE</a>')
+ }
+</script>
+
+
+<h4 id="2timestable">2 Times Table </h4>
+<h2 style="color: tomato;"> 2x1=2<br>2x2=4<br>2x3=6<br>2x4=8<br>2x5=10<br>2x6=12<br>2x7=14<br>2x8=16<br>2x9=18<br>2x10=20</h2>
+
+<marquee><strong><h2> 2x1=2. 2x2=4. 2x3=6. 2x4=8. 2x5=10. 2x6=12. 2x7=14. 2x8=16. 2x9=18. 2x10=20 </h2></strong></marquee>
+
+<p><i>TRY IT</i></p>
+
+<script>
+      function algoritmoyt2() {
+        //var x = 7;
+        var yt2  = document.getElementById("yt2").value;
+        var multt2 = (2*yt2);
+        document.getElementById("MULTT2").innerHTML = "FOUND 2 X <strong>" +yt2+ "=" + multt2 + "</strong>";
+      }
+    </script>
+     
+    <label for="yt2">2 X THE NUMBER YOU WISH TIMES FOR: </label>
+    <input id="yt2" type="number"><br>
+    <button onclick="algoritmoyt2()">Calculate</button>
+    <div id="MULTT2"></div>
+
+<p><i>TRY IT</i></p>
+<button onclick="algoritmoy1t2()">Count at 2</button>
+<script>
+function algoritmoy1t2(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("2x "+ i + "<br>");
+//document.write("= "+ i*2 +"<br>"); 
+alert("Adding  2 at 2:  " + i*2);
+}
+ }
+</script>
+
+<p>IT MEANS</p>
+<table>
+<tr>
+<td>2x1=2</td>
+</tr>
+<tr>
+<td>2x2=2+2</td>
+</tr>
+<tr>
+<td>2x3=2+2+2</td>
+</tr>
+<tr>
+<td>2x4=2+2+2+2</td>
+</tr>
+<tr>
+<td>2x5=2+2+2+2+2</td>
+</tr>
+<tr>
+<td>2x6=2+2+2+2+2+2</td>
+</tr>
+<tr>
+<td>2x7=2+2+2+2+2+2+2</td>
+</tr>
+<tr>
+<td>2x8=2+2+2+2+2+2+2+2</td>
+</tr>
+<tr>
+<td>2x9=2+2+2+2+2+2+2+2+2</td>
+</tr>
+<tr>
+<td>2x10=2+2+2+2+2+2+2+2+2+2</td>
+</tr>
+</table>
+<p>SO, WE HAVE BEEN MAKING</p>
+<table>
+<tr>
+<td>2x1=2</td>
+</tr>
+<tr>
+<td>2x2=2+2=4</td>
+</tr>
+<tr>
+<td>2x3=2+2+2=6</td>
+</tr>
+<tr>
+<td>2x4=2+2+2+2=8</td>
+</tr>
+<tr>
+<td>2x5=2+2+2+2+2=10</td>
+</tr>
+<tr>
+<td>2x6=2+2+2+2+2+2=12</td>
+</tr>
+<tr>
+<td>2x7=2+2+2+2+2+2+2=14</td>
+</tr>
+<tr>
+<td>2x8=2+2+2+2+2+2+2+2=16</td>
+</tr>
+<tr>
+<td>2x9=2+2+2+2+2+2+2+2+2=18</td>
+</tr>
+<tr>
+<td>2x10=2+2+2+2+2+2+2+2+2+2=20</td>
+</tr>
+</table>
+
+<p>LET'S PRACTICE IT</p>
+
+<script>
+        
+        function algoritmo1t2() {
+        
+        var x12 = document.getElementById("x12").value;
+        var print12 = x12*1;
+
+       if (x12 != 2){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x12 = 2){
+       document.getElementById("X12").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x12+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x12"> 2 x 1 = </label>
+    <input id="x12" type="number">
+    <button onclick="algoritmo1t2()">Check</button>
+    <div id="X12"></div>
+    <br>
+
+<script>
+        
+        function algoritmo2t2() {
+        
+        var x22 = document.getElementById("x22").value;
+        var print22=x22*1;
+       if (x22 != 4){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x22 = 4){
+       document.getElementById("X22").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x22+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x22"> 2 x 2 = </label>
+    <input id="x22" type="number">
+    <button onclick="algoritmo2t2()">Check</button>
+    <div id="X22"></div>
+    <br>
+
+<script>
+        
+        function algoritmo3t2() {
+        
+        var x32 = document.getElementById("x32").value;
+        var print32 = x32*1;
+       if (x32 != 6){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x32 = 6){
+       document.getElementById("X32").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x32+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x32"> 2 x 3 = </label>
+    <input id="x32" type="number">
+    <button onclick="algoritmo3t2()">Check</button>
+    <div id="X32"></div>
+    <br>
+
+<script>
+        
+        function algoritmo4t2() {
+        
+        var x42 = document.getElementById("x42").value;
+        var print42 = x42*1;
+       if (x42 != 8){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x42 = 8){
+       document.getElementById("X42").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x42+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x42"> 2 x 4 = </label>
+    <input id="x42" type="number">
+    <button onclick="algoritmo4t2()">Check</button>
+    <div id="X42"></div>
+    <br>
+
+<script>
+        
+        function algoritmo5t2() {
+        
+        var x52 = document.getElementById("x52").value;
+        var print52 = x52*1;
+       if (x52 != 10){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x52 = 10){
+       document.getElementById("X52").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x52+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x52"> 2 x 5 = </label>
+    <input id="x52" type="number">
+    <button onclick="algoritmo5t2()">Check</button>
+    <div id="X52"></div>
+    <br>
+
+<script>
+        
+        function algoritmo6t2() {
+        
+        var x62 = document.getElementById("x62").value;
+        var print62 = x62*1;
+       if (x62 != 12){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x62= 12){
+       document.getElementById("X62").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x62+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x62"> 2 x 6 = </label>
+    <input id="x62" type="number">
+    <button onclick="algoritmo6t2()">Check</button>
+    <div id="X62"></div>
+    <br>
+
+<script>
+        
+        function algoritmo7t2() {
+        
+        var x72 = document.getElementById("x72").value;
+        var print72 = x72*1;
+       if (x72 != 14){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x72= 14){
+       document.getElementById("X72").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x72+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x72"> 2 x 7 = </label>
+    <input id="x72" type="number">
+    <button onclick="algoritmo7t2()">Check</button>
+    <div id="X72"></div>
+    <br>
+
+<script>
+        
+        function algoritmo8t2() {
+        
+        var x82 = document.getElementById("x82").value;
+        var print82 = x82*1;
+       if (x82 != 16){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x82= 16){
+       document.getElementById("X82").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x82+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x82"> 2 x 8 = </label>
+    <input id="x82" type="number">
+    <button onclick="algoritmo8t2()">Check</button>
+    <div id="X82"></div>
+    <br>
+
+<script>
+        
+        function algoritmo9t2() {
+        
+        var x92 = document.getElementById("x92").value;
+        var print92 = x92*1;
+       if (x92 != 18){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x92= 18){
+       document.getElementById("X92").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x92+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x92"> 2 x 9 = </label>
+    <input id="x92" type="number">
+    <button onclick="algoritmo9t2()">Check</button>
+    <div id="X92"></div>
+    <br>
+
+<script>
+        
+        function algoritmo10t2() {
+        
+        var x102 = document.getElementById("x102").value;
+        var print102 = x102*1;
+       if (x102 != 20){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x102= 20){
+       document.getElementById("X102").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x102+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x102"> 2 x 10 = </label>
+    <input id="x102" type="number">
+    <button onclick="algoritmo10t2()">Check</button>
+    <div id="X102"></div>
+<!--<button onclick="algoritmo11()">Count 7</button>-->
+
+    <button onclick="algoritmoPt2()">PRESS YOUR WORK</button>
+
+<script>
+function algoritmoPt2(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("2x "+ i + "<br>");
+//document.write("= "+ i*2 +"<br>");
+document.write("2x" +i+ " = " +i*2+ "<br>");
+ //alert("2x"+i+"=" + i*2);
+}
+document.write("Either press F5 or click at the link REFRESH below to return the main page" + "<br>");
+document.write('<a href="JavaScript: location.reload(true);"> REFRESH PAGE</a>')
+ }
+</script>
+
+<h4 id="3timestable">3 Times Table </h4>
+<h2 style="color: tomato;"> 3x1=3<br>3x2=6<br>3x3=9<br>3x4=12<br>3x5=15<br>3x6=18<br>3x7=21<br>3x8=24<br>3x9=27<br>3x10=30</h2>
+
+<marquee><strong><h2> 3x1=3. 3x2=6. 3x3=9. 3x4=12. 3x5=15. 3x6=18. 3x7=21. 3x8=24. 3x9=27. 3x10=30 </h2></strong></marquee>
+
+<p><i>TRY IT</i></p>
+
+<script>
+      function algoritmoyt3() {
+        //var x = 7;
+        var yt3  = document.getElementById("yt3").value;
+        var multt3 = (3*yt3);
+        document.getElementById("MULTT3").innerHTML = "FOUND 3 X <strong>" +yt3+ "=" + multt3 + "</strong>";
+      }
+    </script>
+     
+    <label for="yt3">3 X THE NUMBER YOU WISH TIMES FOR: </label>
+    <input id="yt3" type="number"><br>
+    <button onclick="algoritmoyt3()">Calculate</button>
+    <div id="MULTT3"></div>
+
+<p><i>TRY IT</i></p>
+<button onclick="algoritmoy1t3()">Count at 3</button>
+<script>
+function algoritmoy1t3(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("3x "+ i + "<br>");
+//document.write("= "+ i*3 +"<br>"); 
+alert("Adding  3 at 3:  " + i*3);
+}
+ }
+</script>
+
+<p>IT MEANS</p>
+<table>
+<tr>
+<td>3x1=3</td>
+</tr>
+<tr>
+<td>3x2=3+3</td>
+</tr>
+<tr>
+<td>3x3=3+3+3</td>
+</tr>
+<tr>
+<td>3x4=3+3+3+3</td>
+</tr>
+<tr>
+<td>3x5=3+3+3+3+3</td>
+</tr>
+<tr>
+<td>3x6=3+3+3+3+3+3</td>
+</tr>
+<tr>
+<td>3x7=3+3+3+3+3+3+3</td>
+</tr>
+<tr>
+<td>3x8=3+3+3+3+3+3+3+3</td>
+</tr>
+<tr>
+<td>3x9=3+3+3+3+3+3+3+3+3</td>
+</tr>
+<tr>
+<td>3x10=3+3+3+3+3+3+3+3+3+3</td>
+</tr>
+</table>
+<p>SO, WE HAVE BEEN MAKING</p>
+<table>
+<tr>
+<td>3x1=3</td>
+</tr>
+<tr>
+<td>3x2=3+3=6</td>
+</tr>
+<tr>
+<td>3x3=3+3+3=9</td>
+</tr>
+<tr>
+<td>3x4=3+3+3+3=12</td>
+</tr>
+<tr>
+<td>3x5=3+3+3+3+3=15</td>
+</tr>
+<tr>
+<td>3x6=3+3+3+3+3+3=18</td>
+</tr>
+<tr>
+<td>3x7=3+3+3+3+3+3+3=21</td>
+</tr>
+<tr>
+<td>3x8=3+3+3+3+3+3+3+3=24</td>
+</tr>
+<tr>
+<td>3x9=3+3+3+3+3+3+3+3+3=27</td>
+</tr>
+<tr>
+<td>3x10=3+3+3+3+3+3+3+3+3+3=30</td>
+</tr>
+</table>
+
+<p>LET'S PRACTICE IT</p>
+
+<script>
+        
+        function algoritmo1t3() {
+        
+        var x13 = document.getElementById("x13").value;
+        var print13 = x13*1;
+
+       if (x13 != 3){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x13 = 3){
+       document.getElementById("X13").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x13+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x13"> 3 x 1 = </label>
+    <input id="x13" type="number">
+    <button onclick="algoritmo1t3()">Check</button>
+    <div id="X13"></div>
+    <br>
+
+<script>
+        
+        function algoritmo2t3() {
+        
+        var x23 = document.getElementById("x23").value;
+        var print23=x23*1;
+       if (x23 != 6){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x23 = 6){
+       document.getElementById("X23").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x23+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x23"> 3 x 2 = </label>
+    <input id="x23" type="number">
+    <button onclick="algoritmo2t3()">Check</button>
+    <div id="X23"></div>
+    <br>
+
+<script>
+        
+        function algoritmo3t3() {
+        
+        var x33 = document.getElementById("x33").value;
+        var print33 = x33*1;
+       if (x33 != 9){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x33 = 9){
+       document.getElementById("X33").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x33+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x33"> 3 x 3 = </label>
+    <input id="x33" type="number">
+    <button onclick="algoritmo3t3()">Check</button>
+    <div id="X33"></div>
+    <br>
+
+<script>
+        
+        function algoritmo4t3() {
+        
+        var x43 = document.getElementById("x43").value;
+        var print43 = x43*1;
+       if (x43 != 12){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x43 = 12){
+       document.getElementById("X43").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x43+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x43"> 3 x 4 = </label>
+    <input id="x43" type="number">
+    <button onclick="algoritmo4t3()">Check</button>
+    <div id="X43"></div>
+    <br>
+
+<script>
+        
+        function algoritmo5t3() {
+        
+        var x53 = document.getElementById("x53").value;
+        var print53 = x53*1;
+       if (x53 != 15){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x53 = 15){
+       document.getElementById("X53").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x53+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x53"> 3 x 5 = </label>
+    <input id="x53" type="number">
+    <button onclick="algoritmo5t3()">Check</button>
+    <div id="X53"></div>
+    <br>
+
+<script>
+        
+        function algoritmo6t3() {
+        
+        var x63 = document.getElementById("x63").value;
+        var print63 = x63*1;
+       if (x63 != 18){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x63= 18){
+       document.getElementById("X63").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x63+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x63"> 3 x 6 = </label>
+    <input id="x63" type="number">
+    <button onclick="algoritmo6t3()">Check</button>
+    <div id="X63"></div>
+    <br>
+
+<script>
+        
+        function algoritmo7t3() {
+        
+        var x73 = document.getElementById("x73").value;
+        var print73 = x73*1;
+       if (x73 != 21){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x73= 21){
+       document.getElementById("X73").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x73+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x73"> 3 x 7 = </label>
+    <input id="x73" type="number">
+    <button onclick="algoritmo7t3()">Check</button>
+    <div id="X73"></div>
+    <br>
+
+<script>
+        
+        function algoritmo8t3() {
+        
+        var x83 = document.getElementById("x83").value;
+        var print83 = x83*1;
+       if (x83 != 24){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x83= 24){
+       document.getElementById("X83").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x83+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x83"> 3 x 8 = </label>
+    <input id="x83" type="number">
+    <button onclick="algoritmo8t3()">Check</button>
+    <div id="X83"></div>
+    <br>
+
+<script>
+        
+        function algoritmo9t3() {
+        
+        var x93 = document.getElementById("x93").value;
+        var print93 = x93*1;
+       if (x93 != 27){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x93= 27){
+       document.getElementById("X93").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x93+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x93"> 3 x 9 = </label>
+    <input id="x93" type="number">
+    <button onclick="algoritmo9t3()">Check</button>
+    <div id="X93"></div>
+    <br>
+
+<script>
+        
+        function algoritmo10t3() {
+        
+        var x103 = document.getElementById("x103").value;
+        var print103 = x103*1;
+       if (x103 != 30){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x103= 30){
+       document.getElementById("X103").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x103+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x103"> 3 x 10 = </label>
+    <input id="x103" type="number">
+    <button onclick="algoritmo10t3()">Check</button>
+    <div id="X103"></div>
+<!--<button onclick="algoritmo11()">Count 7</button>-->
+
+    <button onclick="algoritmoPt3()">PRESS YOUR WORK</button>
+
+<script>
+function algoritmoPt3(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("3x "+ i + "<br>");
+//document.write("= "+ i*3 +"<br>");
+document.write("3x" +i+ " = " +i*3+ "<br>");
+ //alert("3x"+i+"=" + i*3);
+}
+document.write("Either press F5 or click at the link REFRESH below to return the main page" + "<br>");
+document.write('<a href="JavaScript: location.reload(true);"> REFRESH PAGE</a>')
+ }
+</script>
+
+<h4 id="4timestable">4 Times Table </h4>
+<h2 style="color: tomato;"> 4x1=4<br>4x2=8<br>4x3=12<br>4x4=16<br>4x5=20<br>4x6=24<br>4x7=28<br>4x8=32<br>4x9=36<br>4x10=40</h2>
+
+<marquee><strong><h2> 4x1=4. 4x2=8. 4x3=12. 4x4=16. 4x5=20. 4x6=24. 4x7=28. 4x8=32. 4x9=36. 4x10=40 </h2></strong></marquee>
+
+<p><i>TRY IT</i></p>
+
+<script>
+      function algoritmoyt4() {
+        //var x = 7;
+        var yt4  = document.getElementById("yt4").value;
+        var multt4 = (4*yt4);
+        document.getElementById("MULTT4").innerHTML = "FOUND 4 X <strong>" +yt4+ "=" + multt4 + "</strong>";
+      }
+    </script>
+     
+    <label for="yt4">4 X THE NUMBER YOU WISH TIMES FOR: </label>
+    <input id="yt4" type="number"><br>
+    <button onclick="algoritmoyt4()">Calculate</button>
+    <div id="MULTT4"></div>
+
+<p><i>TRY IT</i></p>
+<button onclick="algoritmoy1t4()">Count at 4</button>
+<script>
+function algoritmoy1t4(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("4x "+ i + "<br>");
+//document.write("= "+ i*4 +"<br>"); 
+alert("Adding  4 at 4:  " + i*4);
+}
+ }
+</script>
+
+<p>IT MEANS</p>
+<table>
+<tr>
+<td>4x1=4</td>
+</tr>
+<tr>
+<td>4x2=4+4</td>
+</tr>
+<tr>
+<td>4x3=4+4+4</td>
+</tr>
+<tr>
+<td>4x4=4+4+4+4</td>
+</tr>
+<tr>
+<td>4x5=4+4+4+4+4</td>
+</tr>
+<tr>
+<td>4x6=4+4+4+4+4+4</td>
+</tr>
+<tr>
+<td>4x7=4+4+4+4+4+4+4</td>
+</tr>
+<tr>
+<td>4x8=4+4+4+4+4+4+4+4</td>
+</tr>
+<tr>
+<td>4x9=4+4+4+4+4+4+4+4+4</td>
+</tr>
+<tr>
+<td>4x10=4+4+4+4+4+4+4+4+4+4</td>
+</tr>
+</table>
+<p>SO, WE HAVE BEEN MAKING</p>
+<table>
+<tr>
+<td>4x1=4</td>
+</tr>
+<tr>
+<td>4x2=4+4=8</td>
+</tr>
+<tr>
+<td>4x3=4+4+4=12</td>
+</tr>
+<tr>
+<td>4x4=4+4+4+4=16</td>
+</tr>
+<tr>
+<td>4x5=4+4+4+4+4=20</td>
+</tr>
+<tr>
+<td>4x6=4+4+4+4+4+4=24</td>
+</tr>
+<tr>
+<td>4x7=4+4+4+4+4+4+4=28</td>
+</tr>
+<tr>
+<td>4x8=4+4+4+4+4+4+4+4=32</td>
+</tr>
+<tr>
+<td>4x9=4+4+4+4+4+4+4+4+4=36</td>
+</tr>
+<tr>
+<td>4x10=4+4+4+4+4+4+4+4+4+4=40</td>
+</tr>
+</table>
+
+<p>LET'S PRACTICE IT</p>
+
+<script>
+        
+        function algoritmo1t4() {
+        
+        var x14 = document.getElementById("x14").value;
+        var print14 = x14*1;
+
+       if (x14 != 4){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x14 = 4){
+       document.getElementById("X14").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x14+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x14"> 4 x 1 = </label>
+    <input id="x14" type="number">
+    <button onclick="algoritmo1t4()">Check</button>
+    <div id="X14"></div>
+    <br>
+
+<script>
+        
+        function algoritmo2t4() {
+        
+        var x24 = document.getElementById("x24").value;
+        var print24=x24*1;
+       if (x24 != 8){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x24 = 8){
+       document.getElementById("X24").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x24+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x24"> 4 x 2 = </label>
+    <input id="x24" type="number">
+    <button onclick="algoritmo2t4()">Check</button>
+    <div id="X24"></div>
+    <br>
+
+<script>
+        
+        function algoritmo3t4() {
+        
+        var x34 = document.getElementById("x34").value;
+        var print34 = x34*1;
+       if (x34 != 12){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x34 = 12){
+       document.getElementById("X34").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x34+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x34"> 4 x 3 = </label>
+    <input id="x34" type="number">
+    <button onclick="algoritmo3t4()">Check</button>
+    <div id="X34"></div>
+    <br>
+
+<script>
+        
+        function algoritmo4t4() {
+        
+        var x44 = document.getElementById("x44").value;
+        var print44 = x44*1;
+       if (x44 != 16){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x44 = 16){
+       document.getElementById("X44").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x44+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x44"> 4 x 4 = </label>
+    <input id="x44" type="number">
+    <button onclick="algoritmo4t4()">Check</button>
+    <div id="X44"></div>
+    <br>
+
+<script>
+        
+        function algoritmo5t4() {
+        
+        var x54 = document.getElementById("x54").value;
+        var print54 = x54*1;
+       if (x54 != 20){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x54 = 20){
+       document.getElementById("X54").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x54+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x54"> 4 x 5 = </label>
+    <input id="x54" type="number">
+    <button onclick="algoritmo5t4()">Check</button>
+    <div id="X54"></div>
+    <br>
+
+<script>
+        
+        function algoritmo6t4() {
+        
+        var x64 = document.getElementById("x64").value;
+        var print64 = x64*1;
+       if (x64 != 24){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x64= 24){
+       document.getElementById("X64").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x64+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x64"> 4 x 6 = </label>
+    <input id="x64" type="number">
+    <button onclick="algoritmo6t4()">Check</button>
+    <div id="X64"></div>
+    <br>
+
+<script>
+        
+        function algoritmo7t4() {
+        
+        var x74 = document.getElementById("x74").value;
+        var print74 = x74*1;
+       if (x74 != 28){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x74= 28){
+       document.getElementById("X74").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x74+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x74"> 4 x 7 = </label>
+    <input id="x74" type="number">
+    <button onclick="algoritmo7t4()">Check</button>
+    <div id="X74"></div>
+    <br>
+
+<script>
+        
+        function algoritmo8t4() {
+        
+        var x84 = document.getElementById("x84").value;
+        var print84 = x84*1;
+       if (x84 != 32){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x84= 32){
+       document.getElementById("X84").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x84+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x84"> 4 x 8 = </label>
+    <input id="x84" type="number">
+    <button onclick="algoritmo8t4()">Check</button>
+    <div id="X84"></div>
+    <br>
+
+<script>
+        
+        function algoritmo9t4() {
+        
+        var x94 = document.getElementById("x94").value;
+        var print94 = x94*1;
+       if (x94 != 36){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x94= 36){
+       document.getElementById("X94").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x94+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x94"> 4 x 9 = </label>
+    <input id="x94" type="number">
+    <button onclick="algoritmo9t4()">Check</button>
+    <div id="X94"></div>
+    <br>
+
+<script>
+        
+        function algoritmo10t4() {
+        
+        var x104 = document.getElementById("x104").value;
+        var print104 = x104*1;
+       if (x104 != 40){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x104= 40){
+       document.getElementById("X104").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x104+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x104"> 4 x 10 = </label>
+    <input id="x104" type="number">
+    <button onclick="algoritmo10t4()">Check</button>
+    <div id="X104"></div>
+<!--<button onclick="algoritmo11()">Count 7</button>-->
+
+    <button onclick="algoritmoPt4()">PRESS YOUR WORK</button>
+
+<script>
+function algoritmoPt4(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("4x "+ i + "<br>");
+//document.write("= "+ i*4 +"<br>");
+document.write("4x" +i+ " = " +i*4+ "<br>");
+ //alert("4x"+i+"=" + i*4);
+}
+document.write("Either press F5 or click at the link REFRESH below to return the main page" + "<br>");
+document.write('<a href="JavaScript: location.reload(true);"> REFRESH PAGE</a>')
+ }
+</script>
+
+<h4 id="5timestable">5 Times Table </h4>
+<h2 style="color: tomato;"> 5x1=5<br>5x2=10<br>5x3=15<br>5x4=20<br>5x5=25<br>5x6=30<br>5x7=35<br>5x8=40<br>5x9=45<br>5x10=50</h2>
+
+<marquee><strong><h2> 5x1=5. 5x2=10. 5x3=15. 5x4=20. 5x5=25. 5x6=30. 5x7=35. 5x8=40. 5x9=45. 5x10=50 </h2></strong></marquee>
+
+<p><i>TRY IT</i></p>
+
+<script>
+      function algoritmoyt5() {
+        //var x = 7;
+        var yt5  = document.getElementById("yt5").value;
+        var multt5 = (5*yt5);
+        document.getElementById("MULTT5").innerHTML = "FOUND 5 X <strong>" +yt5+ "=" + multt5 + "</strong>";
+      }
+    </script>
+     
+    <label for="yt5">5 X THE NUMBER YOU WISH TIMES FOR: </label>
+    <input id="yt5" type="number"><br>
+    <button onclick="algoritmoyt5()">Calculate</button>
+    <div id="MULTT5"></div>
+
+<p><i>TRY IT</i></p>
+<button onclick="algoritmoy1t5()">Count at 5</button>
+<script>
+function algoritmoy1t5(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("5x "+ i + "<br>");
+//document.write("= "+ i*5 +"<br>"); 
+alert("Adding  5 at 5:  " + i*5);
+}
+ }
+</script>
+
+<p>IT MEANS</p>
+<table>
+<tr>
+<td>5x1=5</td>
+</tr>
+<tr>
+<td>5x2=5+5</td>
+</tr>
+<tr>
+<td>5x3=5+5+5</td>
+</tr>
+<tr>
+<td>5x4=5+5+5+5</td>
+</tr>
+<tr>
+<td>5x5=5+5+5+5+5</td>
+</tr>
+<tr>
+<td>5x6=5+5+5+5+5+5</td>
+</tr>
+<tr>
+<td>5x7=5+5+5+5+5+5+5</td>
+</tr>
+<tr>
+<td>5x8=5+5+5+5+5+5+5+5</td>
+</tr>
+<tr>
+<td>5x9=5+5+5+5+5+5+5+5+5</td>
+</tr>
+<tr>
+<td>5x10=5+5+5+5+5+5+5+5+5+5</td>
+</tr>
+</table>
+<p>SO, WE HAVE BEEN MAKING</p>
+<table>
+<tr>
+<td>5x1=5</td>
+</tr>
+<tr>
+<td>5x2=5+5=10</td>
+</tr>
+<tr>
+<td>5x3=5+5+5=15</td>
+</tr>
+<tr>
+<td>5x4=5+5+5+5=20</td>
+</tr>
+<tr>
+<td>5x5=5+5+5+5+5=25</td>
+</tr>
+<tr>
+<td>5x6=5+5+5+5+5+5=30</td>
+</tr>
+<tr>
+<td>5x7=5+5+5+5+5+5+5=35</td>
+</tr>
+<tr>
+<td>5x8=5+5+5+5+5+5+5+5=40</td>
+</tr>
+<tr>
+<td>5x9=5+5+5+5+5+5+5+5+5=45</td>
+</tr>
+<tr>
+<td>5x10=5+5+5+5+5+5+5+5+5+5=50</td>
+</tr>
+</table>
+
+<p>LET'S PRACTICE IT</p>
+
+<script>
+        
+        function algoritmo1t5() {
+        
+        var x15 = document.getElementById("x15").value;
+        var print15 = x15*1;
+
+       if (x15 != 5){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x15 = 5){
+       document.getElementById("X15").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x15+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x15"> 5 x 1 = </label>
+    <input id="x15" type="number">
+    <button onclick="algoritmo1t5()">Check</button>
+    <div id="X15"></div>
+    <br>
+
+<script>
+        
+        function algoritmo2t5() {
+        
+        var x25 = document.getElementById("x25").value;
+        var print25=x25*1;
+       if (x25 != 10){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x25 = 10){
+       document.getElementById("X25").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x25+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x25"> 5 x 2 = </label>
+    <input id="x25" type="number">
+    <button onclick="algoritmo2t5()">Check</button>
+    <div id="X25"></div>
+    <br>
+
+<script>
+        
+        function algoritmo3t5() {
+        
+        var x35 = document.getElementById("x35").value;
+        var print35 = x35*1;
+       if (x35 != 15){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x35 = 15){
+       document.getElementById("X35").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x35+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x35"> 5 x 3 = </label>
+    <input id="x35" type="number">
+    <button onclick="algoritmo3t5()">Check</button>
+    <div id="X35"></div>
+    <br>
+
+<script>
+        
+        function algoritmo4t5() {
+        
+        var x45 = document.getElementById("x45").value;
+        var print45 = x45*1;
+       if (x45 != 20){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x45 = 20){
+       document.getElementById("X45").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x45+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x45"> 5 x 4 = </label>
+    <input id="x45" type="number">
+    <button onclick="algoritmo4t5()">Check</button>
+    <div id="X45"></div>
+    <br>
+
+<script>
+        
+        function algoritmo5t5() {
+        
+        var x55 = document.getElementById("x55").value;
+        var print55 = x55*1;
+       if (x55 != 25){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x55 = 25){
+       document.getElementById("X55").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x55+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x55"> 5 x 5 = </label>
+    <input id="x55" type="number">
+    <button onclick="algoritmo5t5()">Check</button>
+    <div id="X55"></div>
+    <br>
+
+<script>
+        
+        function algoritmo6t5() {
+        
+        var x65 = document.getElementById("x65").value;
+        var print65 = x65*1;
+       if (x65 != 30){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x65= 30){
+       document.getElementById("X65").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x65+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x65"> 5 x 6 = </label>
+    <input id="x65" type="number">
+    <button onclick="algoritmo6t5()">Check</button>
+    <div id="X65"></div>
+    <br>
+
+<script>
+        
+        function algoritmo7t5() {
+        
+        var x75 = document.getElementById("x75").value;
+        var print75 = x75*1;
+       if (x75 != 35){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x75= 35){
+       document.getElementById("X75").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x75+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x75"> 5 x 7 = </label>
+    <input id="x75" type="number">
+    <button onclick="algoritmo7t5()">Check</button>
+    <div id="X75"></div>
+    <br>
+
+<script>
+        
+        function algoritmo8t5() {
+        
+        var x85 = document.getElementById("x85").value;
+        var print85 = x85*1;
+       if (x85 != 40){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x85= 40){
+       document.getElementById("X85").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x85+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x85"> 5 x 8 = </label>
+    <input id="x85" type="number">
+    <button onclick="algoritmo8t5()">Check</button>
+    <div id="X85"></div>
+    <br>
+
+<script>
+        
+        function algoritmo9t5() {
+        
+        var x95 = document.getElementById("x95").value;
+        var print95 = x95*1;
+       if (x95 != 45){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x95= 45){
+       document.getElementById("X95").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x95+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x95"> 5 x 9 = </label>
+    <input id="x95" type="number">
+    <button onclick="algoritmo9t5()">Check</button>
+    <div id="X95"></div>
+    <br>
+
+<script>
+        
+        function algoritmo10t5() {
+        
+        var x105 = document.getElementById("x105").value;
+        var print105 = x105*1;
+       if (x105 != 50){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x105= 50){
+       document.getElementById("X105").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x105+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x105"> 5 x 10 = </label>
+    <input id="x105" type="number">
+    <button onclick="algoritmo10t5()">Check</button>
+    <div id="X105"></div>
+<!--<button onclick="algoritmo11()">Count 7</button>-->
+
+    <button onclick="algoritmoPt5()">PRESS YOUR WORK</button>
+
+<script>
+function algoritmoPt5(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("5x "+ i + "<br>");
+//document.write("= "+ i*5 +"<br>");
+document.write("5x" +i+ " = " +i*5+ "<br>");
+ //alert("5x"+i+"=" + i*5);
+}
+document.write("Either press F5 or click at the link REFRESH below to return the main page" + "<br>");
+document.write('<a href="JavaScript: location.reload(true);"> REFRESH PAGE</a>')
+ }
+</script>
+
+<h4 id="6timestable">6 Times Table </h4>
+<h2 style="color: tomato;"> 6x1=6<br>6x2=12<br>6x3=18<br>6x4=24<br>6x5=30<br>6x6=36<br>6x7=42<br>6x8=48<br>6x9=54<br>6x10=60</h2>
+
+<marquee><strong><h2> 6x1=6. 6x2=12. 6x3=18. 6x4=24. 6x5=30. 6x6=36. 6x7=42. 6x8=48. 6x9=54. 6x10=60 </h2></strong></marquee>
+
+<p><i>TRY IT</i></p>
+
+<script>
+      function algoritmoyt6() {
+        //var x = 7;
+        var yt6  = document.getElementById("yt6").value;
+        var multt6 = (6*yt6);
+        document.getElementById("MULTT6").innerHTML = "FOUND 6 X <strong>" +yt6+ "=" + multt6 + "</strong>";
+      }
+    </script>
+     
+    <label for="yt6">6 X THE NUMBER YOU WISH TIMES FOR: </label>
+    <input id="yt6" type="number"><br>
+    <button onclick="algoritmoyt6()">Calculate</button>
+    <div id="MULTT6"></div>
+
+<p><i>TRY IT</i></p>
+<button onclick="algoritmoy1t6()">Count at 6</button>
+<script>
+function algoritmoy1t6(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("6x "+ i + "<br>");
+//document.write("= "+ i*6 +"<br>"); 
+alert("Adding  6 at 6:  " + i*6);
+}
+ }
+</script>
+
+<p>IT MEANS</p>
+<table>
+<tr>
+<td>6x1=6</td>
+</tr>
+<tr>
+<td>6x2=6+6</td>
+</tr>
+<tr>
+<td>6x3=6+6+6</td>
+</tr>
+<tr>
+<td>6x4=6+6+6+6</td>
+</tr>
+<tr>
+<td>6x5=6+6+6+6+6</td>
+</tr>
+<tr>
+<td>6x6=6+6+6+6+6+6</td>
+</tr>
+<tr>
+<td>6x7=6+6+6+6+6+6+6</td>
+</tr>
+<tr>
+<td>6x8=6+6+6+6+6+6+6+6</td>
+</tr>
+<tr>
+<td>6x9=6+6+6+6+6+6+6+6+6</td>
+</tr>
+<tr>
+<td>6x10=6+6+6+6+6+6+6+6+6+6</td>
+</tr>
+</table>
+<p>SO, WE HAVE BEEN MAKING</p>
+<table>
+<tr>
+<td>6x1=6</td>
+</tr>
+<tr>
+<td>6x2=6+6=12</td>
+</tr>
+<tr>
+<td>6x3=6+6+6=18</td>
+</tr>
+<tr>
+<td>6x4=6+6+6+6=24</td>
+</tr>
+<tr>
+<td>6x5=6+6+6+6+6=30</td>
+</tr>
+<tr>
+<td>6x6=6+6+6+6+6+6=36</td>
+</tr>
+<tr>
+<td>6x7=6+6+6+6+6+6+6=42</td>
+</tr>
+<tr>
+<td>6x8=6+6+6+6+6+6+6+6=48</td>
+</tr>
+<tr>
+<td>6x9=6+6+6+6+6+6+6+6+6=54</td>
+</tr>
+<tr>
+<td>6x10=6+6+6+6+6+6+6+6+6+6=60</td>
+</tr>
+</table>
+
+<p>LET'S PRACTICE IT</p>
+
+<script>
+        
+        function algoritmo1t6() {
+        
+        var x16 = document.getElementById("x16").value;
+        var print16 = x16*1;
+
+       if (x16 != 6){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x16 = 6){
+       document.getElementById("X16").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x16+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x16"> 6 x 1 = </label>
+    <input id="x16" type="number">
+    <button onclick="algoritmo1t6()">Check</button>
+    <div id="X16"></div>
+    <br>
+
+<script>
+        
+        function algoritmo2t6() {
+        
+        var x26 = document.getElementById("x26").value;
+        var print26=x26*1;
+       if (x26 != 12){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x26 = 12){
+       document.getElementById("X26").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x26+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x26"> 6 x 2 = </label>
+    <input id="x26" type="number">
+    <button onclick="algoritmo2t6()">Check</button>
+    <div id="X26"></div>
+    <br>
+
+<script>
+        
+        function algoritmo3t6() {
+        
+        var x36 = document.getElementById("x36").value;
+        var print36 = x36*1;
+       if (x36 != 18){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x36 = 18){
+       document.getElementById("X36").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x36+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x36"> 6 x 3 = </label>
+    <input id="x36" type="number">
+    <button onclick="algoritmo3t6()">Check</button>
+    <div id="X36"></div>
+    <br>
+
+<script>
+        
+        function algoritmo4t6() {
+        
+        var x46 = document.getElementById("x46").value;
+        var print46 = x46*1;
+       if (x46 != 24){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x46 = 24){
+       document.getElementById("X46").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x46+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x46"> 6 x 4 = </label>
+    <input id="x46" type="number">
+    <button onclick="algoritmo4t6()">Check</button>
+    <div id="X46"></div>
+    <br>
+
+<script>
+        
+        function algoritmo5t6() {
+        
+        var x56 = document.getElementById("x56").value;
+        var print56 = x56*1;
+       if (x56 != 30){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x56 = 30){
+       document.getElementById("X56").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x56+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x56"> 6 x 5 = </label>
+    <input id="x56" type="number">
+    <button onclick="algoritmo5t6()">Check</button>
+    <div id="X56"></div>
+    <br>
+
+<script>
+        
+        function algoritmo6t6() {
+        
+        var x66 = document.getElementById("x66").value;
+        var print66 = x66*1;
+       if (x66 != 36){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x66= 36){
+       document.getElementById("X66").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x66+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x66"> 6 x 6 = </label>
+    <input id="x66" type="number">
+    <button onclick="algoritmo6t6()">Check</button>
+    <div id="X66"></div>
+    <br>
+
+<script>
+        
+        function algoritmo7t6() {
+        
+        var x76 = document.getElementById("x76").value;
+        var print76 = x76*1;
+       if (x76 != 42){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x76= 42){
+       document.getElementById("X76").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x76+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x76"> 6 x 7 = </label>
+    <input id="x76" type="number">
+    <button onclick="algoritmo7t6()">Check</button>
+    <div id="X76"></div>
+    <br>
+
+<script>
+        
+        function algoritmo8t6() {
+        
+        var x86 = document.getElementById("x86").value;
+        var print86 = x86*1;
+       if (x86 != 48){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x86= 48){
+       document.getElementById("X86").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x86+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x86"> 6 x 8 = </label>
+    <input id="x86" type="number">
+    <button onclick="algoritmo8t6()">Check</button>
+    <div id="X86"></div>
+    <br>
+
+<script>
+        
+        function algoritmo9t6() {
+        
+        var x96 = document.getElementById("x96").value;
+        var print96 = x96*1;
+       if (x96 != 54){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x96= 54){
+       document.getElementById("X96").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x96+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x96"> 6 x 9 = </label>
+    <input id="x96" type="number">
+    <button onclick="algoritmo9t6()">Check</button>
+    <div id="X96"></div>
+    <br>
+
+<script>
+        
+        function algoritmo10t6() {
+        
+        var x106 = document.getElementById("x106").value;
+        var print106 = x106*1;
+       if (x106 != 60){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x106= 60){
+       document.getElementById("X106").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x106+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x106"> 6 x 10 = </label>
+    <input id="x106" type="number">
+    <button onclick="algoritmo10t6()">Check</button>
+    <div id="X106"></div>
+<!--<button onclick="algoritmo11()">Count 7</button>-->
+
+    <button onclick="algoritmoPt6()">PRESS YOUR WORK</button>
+
+<script>
+function algoritmoPt6(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("6x "+ i + "<br>");
+//document.write("= "+ i*6 +"<br>");
+document.write("6x" +i+ " = " +i*6+ "<br>");
+ //alert("6x"+i+"=" + i*6);
+}
+document.write("Either press F5 or click at the link REFRESH below to return the main page" + "<br>");
+document.write('<a href="JavaScript: location.reload(true);"> REFRESH PAGE</a>')
+ }
+</script>
+
+<h4 id="7timestable">7 Times Table </h4>
+<h2 style="color: tomato;"> 7x1=7<br>7x2=14<br>7x3=21<br>7x4=28<br>7x5=35<br>7x6=42<br>7x7=49<br>7x8=56<br>7x9=63<br>7x10=70</h2>
+
+<marquee><strong><h2> 7x1=7. 7x2=14. 7x3=21. 7x4=28. 7x5=35. 7x6=42. 7x7=49. 7x8=56. 7x9=63. 7x10=70 </h2></strong></marquee>
+
+<p><i>TRY IT</i></p>
+
+<script>
+      function algoritmo() {
+        //var x = 7;
+        var y  = document.getElementById("y").value;
+        var mult = (7*y);
+        document.getElementById("MULT").innerHTML = "FOUND 7 X <strong>" +y+ "=" + mult + "</strong>";
+      }
+    </script>
+     
+    <label for="y">7 X THE NUMBER YOU WISH TIMES FOR: </label>
+    <input id="y" type="number"><br>
+    <button onclick="algoritmo()">Calculate</button>
+    <div id="MULT"></div>
+
+<p><i>TRY IT</i></p>
+<button onclick="algoritmo11()">Count at 7</button>
+<script>
+function algoritmo11(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("7x "+ i + "<br>");
+//document.write("= "+ i*7 +"<br>"); 
+alert("Adding  7 at 7:  " + i*7);
+}
+ }
+</script>
+
+<p>IT MEANS</p>
+<table>
+<tr>
+<td>7x1=7</td>
+</tr>
+<tr>
+<td>7x2=7+7</td>
+</tr>
+<tr>
+<td>7x3=7+7+7</td>
+</tr>
+<tr>
+<td>7x4=7+7+7+7</td>
+</tr>
+<tr>
+<td>7x5=7+7+7+7+7</td>
+</tr>
+<tr>
+<td>7x6=7+7+7+7+7+7</td>
+</tr>
+<tr>
+<td>7x7=7+7+7+7+7+7+7</td>
+</tr>
+<tr>
+<td>7x8=7+7+7+7+7+7+7+7</td>
+</tr>
+<tr>
+<td>7x9=7+7+7+7+7+7+7+7+7</td>
+</tr>
+<tr>
+<td>7x10=7+7+7+7+7+7+7+7+7+7</td>
+</tr>
+</table>
+<p>SO, WE HAVE BEEN MAKING</p>
+<table>
+<tr>
+<td>7x1=7</td>
+</tr>
+<tr>
+<td>7x2=7+7=14</td>
+</tr>
+<tr>
+<td>7x3=7+7+7=21</td>
+</tr>
+<tr>
+<td>7x4=7+7+7+7=28</td>
+</tr>
+<tr>
+<td>7x5=7+7+7+7+7=35</td>
+</tr>
+<tr>
+<td>7x6=7+7+7+7+7+7=42</td>
+</tr>
+<tr>
+<td>7x7=7+7+7+7+7+7+7=49</td>
+</tr>
+<tr>
+<td>7x8=7+7+7+7+7+7+7+7=56</td>
+</tr>
+<tr>
+<td>7x9=7+7+7+7+7+7+7+7+7=63</td>
+</tr>
+<tr>
+<td>7x10=7+7+7+7+7+7+7+7+7+7=70</td>
+</tr>
+</table>
+
+<p>LET'S PRACTICE IT</p>
+
+<script>
+        
+        function algoritmo1() {
+        
+        var x1 = document.getElementById("x1").value;
+        var print1 = x1*1;
+
+       if (x1 != 7){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x1 = 7){
+       document.getElementById("X1").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x1+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x1"> 7 x 1 = </label>
+    <input id="x1" type="number">
+    <button onclick="algoritmo1()">Check</button>
+    <div id="X1"></div>
+    <br>
+
+<script>
+        
+        function algoritmo2() {
+        
+        var x2 = document.getElementById("x2").value;
+        var print2=x2*1;
+       if (x2 != 14){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x2 = 14){
+       document.getElementById("X2").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x2+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x2"> 7 x 2 = </label>
+    <input id="x2" type="number">
+    <button onclick="algoritmo2()">Check</button>
+    <div id="X2"></div>
+    <br>
+
+<script>
+        
+        function algoritmo3() {
+        
+        var x3 = document.getElementById("x3").value;
+        var print3 = x3*1;
+       if (x3 != 21){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x3 = 21){
+       document.getElementById("X3").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x3+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x3"> 7 x 3 = </label>
+    <input id="x3" type="number">
+    <button onclick="algoritmo3()">Check</button>
+    <div id="X3"></div>
+    <br>
+
+<script>
+        
+        function algoritmo4() {
+        
+        var x4 = document.getElementById("x4").value;
+        var print4 = x4*1;
+       if (x4 != 28){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x4 = 28){
+       document.getElementById("X4").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x4+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x4"> 7 x 4 = </label>
+    <input id="x4" type="number">
+    <button onclick="algoritmo4()">Check</button>
+    <div id="X4"></div>
+    <br>
+
+<script>
+        
+        function algoritmo5() {
+        
+        var x5 = document.getElementById("x5").value;
+        var print5 = x5*1;
+       if (x5 != 35){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x5 = 35){
+       document.getElementById("X5").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x5+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x5"> 7 x 5 = </label>
+    <input id="x5" type="number">
+    <button onclick="algoritmo5()">Check</button>
+    <div id="X5"></div>
+    <br>
+
+<script>
+        
+        function algoritmo6() {
+        
+        var x6 = document.getElementById("x6").value;
+        var print6 = x6*1;
+       if (x6 != 42){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x6= 42){
+       document.getElementById("X6").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x6+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x6"> 7 x 6 = </label>
+    <input id="x6" type="number">
+    <button onclick="algoritmo6()">Check</button>
+    <div id="X6"></div>
+    <br>
+
+<script>
+        
+        function algoritmo7() {
+        
+        var x7 = document.getElementById("x7").value;
+        var print7 = x7*1;
+       if (x7 != 49){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x7= 49){
+       document.getElementById("X7").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x7+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x7"> 7 x 7 = </label>
+    <input id="x7" type="number">
+    <button onclick="algoritmo7()">Check</button>
+    <div id="X7"></div>
+    <br>
+
+<script>
+        
+        function algoritmo8() {
+        
+        var x8 = document.getElementById("x8").value;
+        var print8 = x8*1;
+       if (x8 != 56){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x8= 56){
+       document.getElementById("X8").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x8+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x8"> 7 x 8 = </label>
+    <input id="x8" type="number">
+    <button onclick="algoritmo8()">Check</button>
+    <div id="X8"></div>
+    <br>
+
+<script>
+        
+        function algoritmo9() {
+        
+        var x9 = document.getElementById("x9").value;
+        var print9 = x9*1;
+       if (x9 != 63){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x9= 63){
+       document.getElementById("X9").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x9+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x9"> 7 x 9 = </label>
+    <input id="x9" type="number">
+    <button onclick="algoritmo9()">Check</button>
+    <div id="X9"></div>
+    <br>
+
+<script>
+        
+        function algoritmo10() {
+        
+        var x10 = document.getElementById("x10").value;
+        var print10 = x10*1;
+       if (x10 != 70){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x10= 70){
+       document.getElementById("X10").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x10+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x10"> 7 x 10 = </label>
+    <input id="x10" type="number">
+    <button onclick="algoritmo10()">Check</button>
+    <div id="X10"></div>
+<!--<button onclick="algoritmo11()">Count 7</button>-->
+
+    <button onclick="algoritmoP()">PRESS YOUR WORK</button>
+
+<script>
+function algoritmoP(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("7x "+ i + "<br>");
+//document.write("= "+ i*7 +"<br>");
+document.write("7x" +i+ " = " +i*7+ "<br>");
+ //alert("7x"+i+"=" + i*7);
+}
+document.write("Either press F5 or click at the link REFRESH below to return the main page" + "<br>");
+document.write('<a href="JavaScript: location.reload(true);"> REFRESH PAGE</a>')
+ }
+</script>
+
+<h4 id="8timestable">8 Times Table </h4>
+<h2 style="color: tomato;"> 8x1=8<br>8x2=16<br>8x3=24<br>8x4=32<br>8x5=40<br>8x6=48<br>8x7=56<br>8x8=64<br>8x9=72<br>8x10=80</h2>
+
+<marquee><strong><h2> 8x1=8. 8x2=16. 8x3=24. 8x4=32. 8x5=40. 8x6=48. 8x7=56. 8x8=64. 8x9=72. 8x10=80 </h2></strong></marquee>
+
+<p><i>TRY IT</i></p>
+
+<script>
+      function algoritmoyt8() {
+        //var x = 7;
+        var yt8  = document.getElementById("yt8").value;
+        var multt8 = (8*yt8);
+        document.getElementById("MULTT8").innerHTML = "FOUND 8 X <strong>" +yt8+ "=" + multt8 + "</strong>";
+      }
+    </script>
+     
+    <label for="yt8">8 X THE NUMBER YOU WISH TIMES FOR: </label>
+    <input id="yt8" type="number"><br>
+    <button onclick="algoritmoyt8()">Calculate</button>
+    <div id="MULTT8"></div>
+
+<p><i>TRY IT</i></p>
+<button onclick="algoritmoy1t8()">Count at 8</button>
+<script>
+function algoritmoy1t8(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("8x "+ i + "<br>");
+//document.write("= "+ i*8 +"<br>"); 
+alert("Adding  8 at 8:  " + i*8);
+}
+ }
+</script>
+
+<p>IT MEANS</p>
+<table>
+<tr>
+<td>8x1=8</td>
+</tr>
+<tr>
+<td>8x2=8+8</td>
+</tr>
+<tr>
+<td>8x3=8+8+8</td>
+</tr>
+<tr>
+<td>8x4=8+8+8+8</td>
+</tr>
+<tr>
+<td>8x5=8+8+8+8+8</td>
+</tr>
+<tr>
+<td>8x6=8+8+8+8+8+8</td>
+</tr>
+<tr>
+<td>8x7=8+8+8+8+8+8+8</td>
+</tr>
+<tr>
+<td>8x8=8+8+8+8+8+8+8+8</td>
+</tr>
+<tr>
+<td>8x9=8+8+8+8+8+8+8+8+8</td>
+</tr>
+<tr>
+<td>8x10=8+8+8+8+8+8+8+8+8+8</td>
+</tr>
+</table>
+<p>SO, WE HAVE BEEN MAKING</p>
+<table>
+<tr>
+<td>8x1=8</td>
+</tr>
+<tr>
+<td>8x2=8+8=16</td>
+</tr>
+<tr>
+<td>8x3=8+8+8=24</td>
+</tr>
+<tr>
+<td>8x4=8+8+8+8=32</td>
+</tr>
+<tr>
+<td>8x5=8+8+8+8+8=40</td>
+</tr>
+<tr>
+<td>8x6=8+8+8+8+8+8=48</td>
+</tr>
+<tr>
+<td>8x7=8+8+8+8+8+8+8=56</td>
+</tr>
+<tr>
+<td>8x8=8+8+8+8+8+8+8+8=64</td>
+</tr>
+<tr>
+<td>8x9=8+8+8+8+8+8+8+8+8=72</td>
+</tr>
+<tr>
+<td>8x10=8+8+8+8+8+8+8+8+8+8=80</td>
+</tr>
+</table>
+
+<p>LET'S PRACTICE IT</p>
+
+<script>
+        
+        function algoritmo1t8() {
+        
+        var x18 = document.getElementById("x18").value;
+        var print18 = x18*1;
+
+       if (x18 != 8){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x18 = 8){
+       document.getElementById("X18").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x18+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x18"> 8 x 1 = </label>
+    <input id="x18" type="number">
+    <button onclick="algoritmo1t8()">Check</button>
+    <div id="X18"></div>
+    <br>
+
+<script>
+        
+        function algoritmo2t8() {
+        
+        var x28 = document.getElementById("x28").value;
+        var print28=x28*1;
+       if (x28 != 16){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x28 = 16){
+       document.getElementById("X28").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x28+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x28"> 8 x 2 = </label>
+    <input id="x28" type="number">
+    <button onclick="algoritmo2t8()">Check</button>
+    <div id="X28"></div>
+    <br>
+
+<script>
+        
+        function algoritmo3t8() {
+        
+        var x38 = document.getElementById("x38").value;
+        var print38 = x38*1;
+       if (x38 != 24){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x38 = 24){
+       document.getElementById("X38").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x38+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x38"> 8 x 3 = </label>
+    <input id="x38" type="number">
+    <button onclick="algoritmo3t8()">Check</button>
+    <div id="X38"></div>
+    <br>
+
+<script>
+        
+        function algoritmo4t8() {
+        
+        var x48 = document.getElementById("x48").value;
+        var print48 = x48*1;
+       if (x48 != 32){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x48 = 32){
+       document.getElementById("X48").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x48+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x48"> 8 x 4 = </label>
+    <input id="x48" type="number">
+    <button onclick="algoritmo4t8()">Check</button>
+    <div id="X48"></div>
+    <br>
+
+<script>
+        
+        function algoritmo5t8() {
+        
+        var x58 = document.getElementById("x58").value;
+        var print58 = x58*1;
+       if (x58 != 40){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x58 = 40){
+       document.getElementById("X58").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x58+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x58"> 8 x 5 = </label>
+    <input id="x58" type="number">
+    <button onclick="algoritmo5t8()">Check</button>
+    <div id="X58"></div>
+    <br>
+
+<script>
+        
+        function algoritmo6t8() {
+        
+        var x68 = document.getElementById("x68").value;
+        var print68 = x68*1;
+       if (x68 != 48){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x68= 48){
+       document.getElementById("X68").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x68+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x68"> 8 x 6 = </label>
+    <input id="x68" type="number">
+    <button onclick="algoritmo6t8()">Check</button>
+    <div id="X68"></div>
+    <br>
+
+<script>
+        
+        function algoritmo7t8() {
+        
+        var x78 = document.getElementById("x78").value;
+        var print78 = x78*1;
+       if (x78 != 56){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x78= 56){
+       document.getElementById("X78").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x78+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x78"> 8 x 7 = </label>
+    <input id="x78" type="number">
+    <button onclick="algoritmo7t8()">Check</button>
+    <div id="X78"></div>
+    <br>
+
+<script>
+        
+        function algoritmo8t8() {
+        
+        var x88 = document.getElementById("x88").value;
+        var print88 = x88*1;
+       if (x88 != 64){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x88= 64){
+       document.getElementById("X88").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x88+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x88"> 8 x 8 = </label>
+    <input id="x88" type="number">
+    <button onclick="algoritmo8t8()">Check</button>
+    <div id="X88"></div>
+    <br>
+
+<script>
+        
+        function algoritmo9t8() {
+        
+        var x98 = document.getElementById("x98").value;
+        var print98 = x98*1;
+       if (x98 != 72){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x98= 72){
+       document.getElementById("X98").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x98+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x98"> 8 x 9 = </label>
+    <input id="x98" type="number">
+    <button onclick="algoritmo9t8()">Check</button>
+    <div id="X98"></div>
+    <br>
+
+<script>
+        
+        function algoritmo10t8() {
+        
+        var x108 = document.getElementById("x108").value;
+        var print108 = x108*1;
+       if (x108 != 80){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x108= 80){
+       document.getElementById("X108").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x108+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x108"> 8 x 10 = </label>
+    <input id="x108" type="number">
+    <button onclick="algoritmo10t8()">Check</button>
+    <div id="X108"></div>
+<!--<button onclick="algoritmo11()">Count 7</button>-->
+
+    <button onclick="algoritmoPt8()">PRESS YOUR WORK</button>
+
+<script>
+function algoritmoPt8(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("8x "+ i + "<br>");
+//document.write("= "+ i*8 +"<br>");
+document.write("8x" +i+ " = " +i*8+ "<br>");
+ //alert("8x"+i+"=" + i*8);
+}
+document.write("Either press F5 or click at the link REFRESH below to return the main page" + "<br>");
+document.write('<a href="JavaScript: location.reload(true);"> REFRESH PAGE</a>')
+ }
+</script>
+
+<h4 id="9timestable">9 Times Table </h4>
+<h2 style="color: tomato;"> 9x1=9<br>9x2=18<br>9x3=27<br>9x4=36<br>9x5=45<br>9x6=54<br>9x7=63<br>9x8=72<br>9x9=81<br>9x10=90</h2>
+
+<marquee><strong><h2> 9x1=9. 9x2=18. 9x3=27. 9x4=36. 9x5=45. 9x6=54. 9x7=63. 9x8=72. 9x9=81. 9x10=90 </h2></strong></marquee>
+
+<p><i>TRY IT</i></p>
+
+<script>
+      function algoritmoyt9() {
+        //var x = 7;
+        var yt9  = document.getElementById("yt9").value;
+        var multt9 = (9*yt9);
+        document.getElementById("MULTT9").innerHTML = "FOUND 9 X <strong>" +yt9+ "=" + multt9 + "</strong>";
+      }
+    </script>
+     
+    <label for="yt9">9 X THE NUMBER YOU WISH TIMES FOR: </label>
+    <input id="yt9" type="number"><br>
+    <button onclick="algoritmoyt9()">Calculate</button>
+    <div id="MULTT9"></div>
+
+<p><i>TRY IT</i></p>
+<button onclick="algoritmoy1t9()">Count at 9</button>
+<script>
+function algoritmoy1t9(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("9x "+ i + "<br>");
+//document.write("= "+ i*9 +"<br>"); 
+alert("Adding  9 at 9:  " + i*9);
+}
+ }
+</script>
+
+<p>IT MEANS</p>
+<table>
+<tr>
+<td>9x1=9</td>
+</tr>
+<tr>
+<td>9x2=9+9</td>
+</tr>
+<tr>
+<td>9x3=9+9+9</td>
+</tr>
+<tr>
+<td>9x4=9+9+9+9</td>
+</tr>
+<tr>
+<td>9x5=9+9+9+9+9</td>
+</tr>
+<tr>
+<td>9x6=9+9+9+9+9+9</td>
+</tr>
+<tr>
+<td>9x7=9+9+9+9+9+9+9</td>
+</tr>
+<tr>
+<td>9x8=9+9+9+9+9+9+9+9</td>
+</tr>
+<tr>
+<td>9x9=9+9+9+9+9+9+9+9+9</td>
+</tr>
+<tr>
+<td>9x10=9+9+9+9+9+9+9+9+9+9</td>
+</tr>
+</table>
+<p>SO, WE HAVE BEEN MAKING</p>
+<table>
+<tr>
+<td>9x1=9</td>
+</tr>
+<tr>
+<td>9x2=9+9=18</td>
+</tr>
+<tr>
+<td>9x3=9+9+9=27</td>
+</tr>
+<tr>
+<td>9x4=9+9+9+9=36</td>
+</tr>
+<tr>
+<td>9x5=9+9+9+9+9=45</td>
+</tr>
+<tr>
+<td>9x6=9+9+9+9+9+9=54</td>
+</tr>
+<tr>
+<td>9x7=9+9+9+9+9+9+9=63</td>
+</tr>
+<tr>
+<td>9x8=9+9+9+9+9+9+9+9=72</td>
+</tr>
+<tr>
+<td>9x9=9+9+9+9+9+9+9+9+9=81</td>
+</tr>
+<tr>
+<td>9x10=9+9+9+9+9+9+9+9+9+9=90</td>
+</tr>
+</table>
+
+<p>LET'S PRACTICE IT</p>
+
+<script>
+        
+        function algoritmo1t9() {
+        
+        var x19 = document.getElementById("x19").value;
+        var print19 = x19*1;
+
+       if (x19 != 9){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x19 = 9){
+       document.getElementById("X19").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x19+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x19"> 9 x 1 = </label>
+    <input id="x19" type="number">
+    <button onclick="algoritmo1t9()">Check</button>
+    <div id="X19"></div>
+    <br>
+
+<script>
+        
+        function algoritmo2t9() {
+        
+        var x29 = document.getElementById("x29").value;
+        var print29=x29*1;
+       if (x29 != 18){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x29 = 18){
+       document.getElementById("X29").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x29+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x29"> 9 x 2 = </label>
+    <input id="x29" type="number">
+    <button onclick="algoritmo2t9()">Check</button>
+    <div id="X29"></div>
+    <br>
+
+<script>
+        
+        function algoritmo3t9() {
+        
+        var x39 = document.getElementById("x39").value;
+        var print39 = x39*1;
+       if (x39 != 27){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x39 = 27){
+       document.getElementById("X39").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x39+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x39"> 9 x 3 = </label>
+    <input id="x39" type="number">
+    <button onclick="algoritmo3t9()">Check</button>
+    <div id="X39"></div>
+    <br>
+
+<script>
+        
+        function algoritmo4t9() {
+        
+        var x49 = document.getElementById("x49").value;
+        var print49 = x49*1;
+       if (x49 != 36){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x49 = 36){
+       document.getElementById("X49").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x49+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x49"> 9 x 4 = </label>
+    <input id="x49" type="number">
+    <button onclick="algoritmo4t9()">Check</button>
+    <div id="X49"></div>
+    <br>
+
+<script>
+        
+        function algoritmo5t9() {
+        
+        var x59 = document.getElementById("x59").value;
+        var print59 = x59*1;
+       if (x59 != 45){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x59 = 45){
+       document.getElementById("X59").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x59+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x59"> 9 x 5 = </label>
+    <input id="x59" type="number">
+    <button onclick="algoritmo5t9()">Check</button>
+    <div id="X59"></div>
+    <br>
+
+<script>
+        
+        function algoritmo6t9() {
+        
+        var x69 = document.getElementById("x69").value;
+        var print69 = x69*1;
+       if (x69 != 54){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x69= 54){
+       document.getElementById("X69").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x69+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x69"> 9 x 6 = </label>
+    <input id="x69" type="number">
+    <button onclick="algoritmo6t9()">Check</button>
+    <div id="X69"></div>
+    <br>
+
+<script>
+        
+        function algoritmo7t9() {
+        
+        var x79 = document.getElementById("x79").value;
+        var print79 = x79*1;
+       if (x79 != 63){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x79= 63){
+       document.getElementById("X79").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x79+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x79"> 9 x 7 = </label>
+    <input id="x79" type="number">
+    <button onclick="algoritmo7t9()">Check</button>
+    <div id="X79"></div>
+    <br>
+
+<script>
+        
+        function algoritmo8t9() {
+        
+        var x89 = document.getElementById("x89").value;
+        var print89 = x89*1;
+       if (x89 != 72){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x89= 72){
+       document.getElementById("X89").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x89+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x89"> 9 x 8 = </label>
+    <input id="x89" type="number">
+    <button onclick="algoritmo8t9()">Check</button>
+    <div id="X89"></div>
+    <br>
+
+<script>
+        
+        function algoritmo9t9() {
+        
+        var x99 = document.getElementById("x99").value;
+        var print99 = x99*1;
+       if (x99 != 81){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x99= 81){
+       document.getElementById("X99").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x99+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x99"> 9 x 9 = </label>
+    <input id="x99" type="number">
+    <button onclick="algoritmo9t9()">Check</button>
+    <div id="X99"></div>
+    <br>
+
+<script>
+        
+        function algoritmo10t9() {
+        
+        var x109 = document.getElementById("x109").value;
+        var print109 = x109*1;
+       if (x109 != 90){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x109= 90){
+       document.getElementById("X109").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x109+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x109"> 9 x 10 = </label>
+    <input id="x109" type="number">
+    <button onclick="algoritmo10t9()">Check</button>
+    <div id="X109"></div>
+<!--<button onclick="algoritmo11()">Count 7</button>-->
+
+    <button onclick="algoritmoPt9()">PRESS YOUR WORK</button>
+
+<script>
+function algoritmoPt9(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("9x "+ i + "<br>");
+//document.write("= "+ i*9 +"<br>");
+document.write("9x" +i+ " = " +i*9+ "<br>");
+ //alert("9x"+i+"=" + i*9);
+}
+document.write("Either press F5 or click at the link REFRESH below to return the main page" + "<br>");
+document.write('<a href="JavaScript: location.reload(true);"> REFRESH PAGE</a>')
+ }
+</script>
+
+<h4 id="10timestable">10 Times Table </h4>
+<h2 style="color: tomato;"> 10x1=10<br>10x2=20<br>10x3=30<br>10x4=40<br>10x5=50<br>10x6=60<br>10x7=70<br>10x8=80<br>10x9=90<br>10x10=100</h2>
+
+<marquee><strong><h2> 10x1=10. 10x2=20. 10x3=30. 10x4=40. 10x5=50. 10x6=60. 10x7=70. 10x8=80. 10x9=90. 10x10=100 </h2></strong></marquee>
+
+<p><i>TRY IT</i></p>
+
+<script>
+      function algoritmoyt10() {
+        //var x = 7;
+        var yt10  = document.getElementById("yt10").value;
+        var multt10 = (10*yt10);
+        document.getElementById("MULTT10").innerHTML = "FOUND 10 X <strong>" +yt10+ "=" + multt10 + "</strong>";
+      }
+    </script>
+     
+    <label for="yt10">10 X THE NUMBER YOU WISH TIMES FOR: </label>
+    <input id="yt10" type="number"><br>
+    <button onclick="algoritmoyt10()">Calculate</button>
+    <div id="MULTT10"></div>
+
+<p><i>TRY IT</i></p>
+<button onclick="algoritmoy1t10()">Count at 10</button>
+<script>
+function algoritmoy1t10(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("10x "+ i + "<br>");
+//document.write("= "+ i*10 +"<br>"); 
+alert("Adding  10 at 10:  " + i*10);
+}
+ }
+</script>
+
+<p>IT MEANS</p>
+<table>
+<tr>
+<td>10x1=10</td>
+</tr>
+<tr>
+<td>10x2=10+10</td>
+</tr>
+<tr>
+<td>10x3=10+10+10</td>
+</tr>
+<tr>
+<td>10x4=10+10+10+10</td>
+</tr>
+<tr>
+<td>10x5=10+10+10+10+10</td>
+</tr>
+<tr>
+<td>10x6=10+10+10+10+10+10</td>
+</tr>
+<tr>
+<td>10x7=10+10+10+10+10+10+10</td>
+</tr>
+<tr>
+<td>10x8=10+10+10+10+10+10+10+10</td>
+</tr>
+<tr>
+<td>10x9=10+10+10+10+10+10+10+10+10</td>
+</tr>
+<tr>
+<td>10x10=10+10+10+10+10+10+10+10+10+10</td>
+</tr>
+</table>
+<p>SO, WE HAVE BEEN MAKING</p>
+<table>
+<tr>
+<td>10x1=10</td>
+</tr>
+<tr>
+<td>10x2=10+10=20</td>
+</tr>
+<tr>
+<td>10x3=10+10+10=30</td>
+</tr>
+<tr>
+<td>10x4=10+10+10+10=40</td>
+</tr>
+<tr>
+<td>10x5=10+10+10+10+10=50</td>
+</tr>
+<tr>
+<td>10x6=10+10+10+10+10+10=60</td>
+</tr>
+<tr>
+<td>10x7=10+10+10+10+10+10+10=70</td>
+</tr>
+<tr>
+<td>10x8=10+10+10+10+10+10+10+10=80</td>
+</tr>
+<tr>
+<td>10x9=10+10+10+10+10+10+10+10+10=90</td>
+</tr>
+<tr>
+<td>10x10=10+10+10+10+10+10+10+10+10+10=100</td>
+</tr>
+</table>
+
+<p>LET'S PRACTICE IT</p>
+
+<script>
+        
+        function algoritmo1t10() {
+        
+        var x110 = document.getElementById("x110").value;
+        var print110 = x110*1;
+
+       if (x110 != 10){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x110 = 10){
+       document.getElementById("X110").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x110+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x110"> 10 x 1 = </label>
+    <input id="x110" type="number">
+    <button onclick="algoritmo1t10()">Check</button>
+    <div id="X110"></div>
+    <br>
+
+<script>
+        
+        function algoritmo2t10() {
+        
+        var x210 = document.getElementById("x210").value;
+        var print210=x210*1;
+       if (x210 != 20){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x210 = 20){
+       document.getElementById("X210").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x210+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x210"> 10 x 2 = </label>
+    <input id="x210" type="number">
+    <button onclick="algoritmo2t10()">Check</button>
+    <div id="X210"></div>
+    <br>
+
+<script>
+        
+        function algoritmo3t10() {
+        
+        var x310 = document.getElementById("x310").value;
+        var print310 = x310*1;
+       if (x310 != 30){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x310 = 30){
+       document.getElementById("X310").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x310+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x310"> 10 x 3 = </label>
+    <input id="x310" type="number">
+    <button onclick="algoritmo3t10()">Check</button>
+    <div id="X310"></div>
+    <br>
+
+<script>
+        
+        function algoritmo4t10() {
+        
+        var x410 = document.getElementById("x410").value;
+        var print410 = x410*1;
+       if (x410 != 40){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x410 = 40){
+       document.getElementById("X410").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x410+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x410"> 10 x 4 = </label>
+    <input id="x410" type="number">
+    <button onclick="algoritmo4t10()">Check</button>
+    <div id="X410"></div>
+    <br>
+
+<script>
+        
+        function algoritmo5t10() {
+        
+        var x510 = document.getElementById("x510").value;
+        var print510 = x510*1;
+       if (x510 != 50){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x510 = 50){
+       document.getElementById("X510").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x510+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x510"> 10 x 5 = </label>
+    <input id="x510" type="number">
+    <button onclick="algoritmo5t10()">Check</button>
+    <div id="X510"></div>
+    <br>
+
+<script>
+        
+        function algoritmo6t10() {
+        
+        var x610 = document.getElementById("x610").value;
+        var print610 = x610*1;
+       if (x610 != 60){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x610= 60){
+       document.getElementById("X610").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x610+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x610"> 10 x 6 = </label>
+    <input id="x610" type="number">
+    <button onclick="algoritmo6t10()">Check</button>
+    <div id="X610"></div>
+    <br>
+
+<script>
+        
+        function algoritmo7t10() {
+        
+        var x710 = document.getElementById("x710").value;
+        var print710 = x710*1;
+       if (x710 != 70){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x710= 70){
+       document.getElementById("X710").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x710+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x710"> 10 x 7 = </label>
+    <input id="x710" type="number">
+    <button onclick="algoritmo7t10()">Check</button>
+    <div id="X710"></div>
+    <br>
+
+<script>
+        
+        function algoritmo8t10() {
+        
+        var x810 = document.getElementById("x810").value;
+        var print810 = x810*1;
+       if (x810 != 80){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x810= 80){
+       document.getElementById("X810").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x810+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x810"> 10 x 8 = </label>
+    <input id="x810" type="number">
+    <button onclick="algoritmo8t10()">Check</button>
+    <div id="X810"></div>
+    <br>
+
+<script>
+        
+        function algoritmo9t10() {
+        
+        var x910 = document.getElementById("x910").value;
+        var print910 = x910*1;
+       if (x910 != 90){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x910= 90){
+       document.getElementById("X910").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x910+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x910"> 10 x 9 = </label>
+    <input id="x910" type="number">
+    <button onclick="algoritmo9t10()">Check</button>
+    <div id="X910"></div>
+    <br>
+
+<script>
+        
+        function algoritmo10t10() {
+        
+        var x1010 = document.getElementById("x1010").value;
+        var print1010 = x1010*1;
+       if (x1010 != 100){
+        alert("IT ISEN'T THE CORRECT ANSWER. YOU CAN TRY IT AGAIN, OR MAYBE YOU FORGOT TO FILL OUT IN THE BLANK FIELD. PLEASE, TRY IT AGAIN");
+}
+        
+       else if (x1010= 100){
+       document.getElementById("X1010").innerHTML = "CONGRATULATIONS THE CORRECT ANSWER IS <strong>" +x1010+ "</strong>"; 
+}
+      }
+    </script>
+     
+    <label for="x1010"> 10 x 10 = </label>
+    <input id="x1010" type="number">
+    <button onclick="algoritmo10t10()">Check</button>
+    <div id="X1010"></div>
+<!--<button onclick="algoritmo11()">Count 7</button>-->
+
+    <button onclick="algoritmoPt10()">PRESS YOUR WORK</button>
+
+<script>
+function algoritmoPt10(){
+for (i=1 ; i<=10 ; i++){ 
+//document.write("10x "+ i + "<br>");
+//document.write("= "+ i*10 +"<br>");
+document.write("10x" +i+ " = " +i*10+ "<br>");
+ //alert("10x"+i+"=" + i*10);
+}
+document.write("Either press F5 or click at the link REFRESH below to return the main page" + "<br>");
+document.write('<a href="JavaScript: location.reload(true);"> REFRESH PAGE</a>')
+ }
+</script>
+
+</body>
+</html>
